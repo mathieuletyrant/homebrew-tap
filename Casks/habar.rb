@@ -1,6 +1,6 @@
 cask "habar" do
-  version "1.1.0"
-  sha256 "3298467a0a73292068013965d100ecb29c2aae205085ae0d30bc3dd4594105cb"
+  version "1.1.1"
+  sha256 "31ece9b693f970c3bcb6d197df0a13844b4ebc3a957e28ac3facafd16c33de54"
 
   url "https://github.com/mathieuletyrant/habar/releases/download/v#{version}/HABar.zip"
   name "HABar"
