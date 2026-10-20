@@ -1,6 +1,6 @@
 cask "habar" do
-  version "1.0.1"
-  sha256 "71844edc168271aaec3d2c49a6427542f7e02cebb068f135457c598db7a62969"
+  version "1.1.0"
+  sha256 "3298467a0a73292068013965d100ecb29c2aae205085ae0d30bc3dd4594105cb"
 
   url "https://github.com/mathieuletyrant/habar/releases/download/v#{version}/HABar.zip"
   name "HABar"
@@ -21,7 +21,7 @@ cask "habar" do
   uninstall quit: "com.mathieuletyrant.habar"
 
   zap trash: [
+    "~/.config/habar",
     "~/Library/Caches/com.mathieuletyrant.habar",
-    "~/Library/Preferences/com.mathieuletyrant.habar.plist",
   ]
 end
