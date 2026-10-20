@@ -1,8 +1,8 @@
 cask "habar" do
-  version :latest
-  sha256 :no_check
+  version "1.0.1"
+  sha256 "71844edc168271aaec3d2c49a6427542f7e02cebb068f135457c598db7a62969"
 
-  url "https://github.com/mathieuletyrant/habar/releases/latest/download/HABar.zip"
+  url "https://github.com/mathieuletyrant/habar/releases/download/v#{version}/HABar.zip"
   name "HABar"
   desc "Native menu bar app for Home Assistant"
   homepage "https://github.com/mathieuletyrant/habar"
